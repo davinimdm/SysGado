@@ -1,0 +1,74 @@
+<div class="row">
+    <div class="col-12 col-md-10">
+        <h4 class="text-dark">Gerenciamento dos gados existentes</h4>
+    </div>
+
+    <div class="col-12 col-md-2">
+        <button class="btn btn-outline-primary btn-block btn-new"><i class="mdi mdi-plus"></i> Novo</button>
+    </div>
+</div>
+<div class="row mt-3">
+    <table class="table">
+        <thead>
+            <tr>
+                <td class="text-center" width="5%">Cdg</td>
+                <td class="text-center" width="5%">Nome</td>
+                <td class="text-center" width="5%">Brinco</td>
+                <td class="text-center" width="5%">Nsc</td>
+                <td class="text-center" width="5%">Entrada</td>
+                <td class="text-center" width="5%">Pcda</td>
+                <td class="text-center" width="5%">Sexo</td>
+                <td class="text-center" width="5%">Plg</td>
+                <td class="text-center" width="5%">Raca</td>
+                <td class="text-center" width="5%">Mae</td>
+                <td class="text-center" width="5%">Pai</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td class="text-center">01</td>
+                <td class="text-center">Ana</td>
+                <td class="text-center">03</td>
+                <td class="text-center">20/12/2018</td>
+                <td class="text-center">12/05/2019</td>
+                <td class="text-center">Fazenda</td>
+                <td class="text-center">Femea</td>
+                <td class="text-center">Lisa</td>
+                <td class="text-center">Giro</td>
+                <td class="text-center">Lua</td>
+                <td class="text-center">Rei</td>
+                <td class="text-center">
+                    <button class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#modalGado"><i class="mdi mdi-eye mdi-18px"></i></button>
+                    <button class="btn btn-outline-warning btn-sm" data-toggle="modal" data-target="#modalGado"><i class="mdi mdi-pencil mdi-18px"></i></button>
+                    <button class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#modalGado"><i class="mdi mdi-delete mdi-18px"></i></button>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fade" id="modalGado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <!--<div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Salvar mudanças</button>
+            </div>-->
+        </div>
+    </div>
+</div>
+
+
+
+<script src="gado/controle/listaGado.js"></script>
